@@ -12,7 +12,7 @@ import (
 
 //Stack is a struct representing the stack data structure
 type Stack struct {
-	list *list.DoublyLinkedList // we use the DoublyLinkedList as the underline data structure
+	list *list.DoublyLinkedList // we use the DoublyLinkedList as the underlying data structure
 }
 
 //NewStack returns a new stack data structure
